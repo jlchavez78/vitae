@@ -4,6 +4,7 @@ import java.util.Collection;
 import java.util.Date;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -40,22 +41,22 @@ public class Persona {
 	@NotNull
 	private Date fechaNacimiento;
 
-	@OneToMany
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "persona")
 	private Collection<Direccion> direcciones;
 
-	@OneToMany
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "persona")
 	private Collection<Experiencia> experiencias;
 
-	@OneToMany
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "persona")
 	private Collection<Empresa> empresas;
 
-	@OneToMany
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "persona")
 	private Collection<Formacion> formaciones;
 
-	@OneToMany
-	private Collection<ConocimientoTecnicos> conocimientos;
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "persona")
+	private Collection<ConocimientoTecnico> conocimientos;
 
-	@OneToMany
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "persona")
 	private Collection<Idioma> idiomas;
 
 }

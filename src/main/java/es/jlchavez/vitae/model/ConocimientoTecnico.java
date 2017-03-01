@@ -1,6 +1,7 @@
 package es.jlchavez.vitae.model;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -12,7 +13,7 @@ import lombok.Data;
 
 @Data
 @Entity
-public class ConocimientoTecnicos {
+public class ConocimientoTecnico {
 
 	@Id
 	@SequenceGenerator(name = "SEQ_CONOCIMIENTOS_GENERATOR", sequenceName = "SEQ_CONOCIMIENTOS")
@@ -24,7 +25,8 @@ public class ConocimientoTecnicos {
 
 	private Nivel nivel;
 
-	@ManyToOne
+	@NotNull
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Persona persona;
 
 }

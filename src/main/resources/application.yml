@@ -12,10 +12,10 @@ spring:
     database: ORACLE
     show-sql: true
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update #create-drop
       
 server:
     port: 9000
-    contextPath: /client
+    contextPath: /vitae
 
 

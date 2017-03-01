@@ -1,6 +1,7 @@
 package es.jlchavez.vitae.model;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -22,7 +23,8 @@ public class DetalleExperiencia {
 	@NotNull
 	private String detalle;
 
-	@ManyToOne
+	@NotNull
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Experiencia experiencia;
 
 }

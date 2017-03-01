@@ -4,6 +4,7 @@ import java.util.Collection;
 import java.util.Date;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -30,15 +31,17 @@ public class Experiencia {
 
 	private Date fechaFin;
 
-	@ManyToOne
+	@NotNull
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Empresa empresa;
 
 	private String cliente;
 
-	@OneToMany
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "experiencia")
 	private Collection<DetalleExperiencia> detalles;
 
-	@ManyToOne
+	@NotNull
+	@ManyToOne(fetch = FetchType.LAZY)
 	private Persona persona;
 
 }
