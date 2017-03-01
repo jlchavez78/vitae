@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B703C90E-F120-C56C-3733-C783F3BD0B0D" name="PERSONA">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>JLCHAVEZ</sourceObjSchema>
+<sourceObjName>PERSONA</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>87488AD1-CCF3-72AE-9160-48A757255673</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C2E15840-2E18-0F8E-2A4A-C768BCC11C99">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>PERSONA</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="B4A72D72-E93C-3E3A-9C31-B37AFB75863B">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>PERSONA</sourceObjSchema>
+<sourceObjName>FECHA_NACIMIENTO</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOVIL" id="765AF67B-27E2-A658-3455-F1A62B532CF9">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>PERSONA</sourceObjSchema>
+<sourceObjName>MOVIL</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIF" id="CC344F26-EF54-E9A6-F933-89B66262EC0F">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>PERSONA</sourceObjSchema>
+<sourceObjName>NIF</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="58D1F09C-2AA3-1A7F-0DB1-B9A648C4DD94">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>PERSONA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMER_APELLIDO" id="4809F75C-7CCC-AD8C-0430-1803C2BA3BAF">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>PERSONA</sourceObjSchema>
+<sourceObjName>PRIMER_APELLIDO</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGUNDO_APELLIDO" id="5AC8E72D-EE75-24DC-A98F-3ADA0D30D2E0">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>PERSONA</sourceObjSchema>
+<sourceObjName>SEGUNDO_APELLIDO</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="E8BA4182-EC18-4E13-7C8E-28A2E9011AC7">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>PERSONA</sourceObjSchema>
+<sourceObjName>TELEFONO</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DB715B7-7B3C-F606-582F-126C252D5835" name="PERSONA_PK">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>JLCHAVEZ</sourceObjSchema>
+<sourceObjName>SYS_C0011488</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>87488AD1-CCF3-72AE-9160-48A757255673</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2E15840-2E18-0F8E-2A4A-C768BCC11C99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

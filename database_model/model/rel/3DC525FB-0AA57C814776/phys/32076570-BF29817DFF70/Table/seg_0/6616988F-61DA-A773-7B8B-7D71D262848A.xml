@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="FORMACION" directorySegmentName="seg_0" id="6616988F-61DA-A773-7B8B-7D71D262848A">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>87488AD1-CCF3-72AE-9160-48A757255673</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>57EB5DB2-6C3D-8457-D543-08DE4C2E1D25</segment>
+<tableSpace>53A9EF4D-46AF-8AE6-0560-3D01FD717217</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CENTRO" id="02E3BE8A-0448-C189-20F9-C28EF6304E40">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERSONA_ID" id="76AE2FBD-6F09-E346-E494-BD6F764921BC">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ANYO" id="77A95389-B47B-E529-FAC1-88EFD3691FC1">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TITULO" id="88CD7F6D-2AE4-D1CA-F86B-84FF575F0308">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="B8008299-C45B-6C63-82B7-3F7BCD5744D4">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MENCION" id="BECFEB05-D4B9-0C67-5BFB-63FD9EDD046B">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK9JHSCRKXCBOFAPPI9PJD33TJ5" id="EB26D8D5-03D7-8BE9-29ED-27D2A4E5390B">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FORMACION_PK" id="4F680EB0-2D9A-DB9A-6C5B-D8D960719377">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>87488AD1-CCF3-72AE-9160-48A757255673</schemaObject>
+<segment>98B94FB6-C043-A156-0E13-C1F34CFF5C3E</segment>
+<tableSpace>53A9EF4D-46AF-8AE6-0560-3D01FD717217</tableSpace>
+<indexSegment>98B94FB6-C043-A156-0E13-C1F34CFF5C3E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

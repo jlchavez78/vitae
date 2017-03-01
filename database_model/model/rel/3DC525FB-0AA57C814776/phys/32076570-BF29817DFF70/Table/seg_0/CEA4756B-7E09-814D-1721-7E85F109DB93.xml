@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DIRECCION" directorySegmentName="seg_0" id="CEA4756B-7E09-814D-1721-7E85F109DB93">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>87488AD1-CCF3-72AE-9160-48A757255673</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>57EB5DB2-6C3D-8457-D543-08DE4C2E1D25</segment>
+<tableSpace>53A9EF4D-46AF-8AE6-0560-3D01FD717217</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PISO_PUERTA" id="083C7310-F358-E355-9889-0F68D4DC25D0">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POBLACION" id="2E7F385E-6003-6185-E83A-CC7B56AA0B2F">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO" id="387B169A-5D4A-4AD5-7CE2-2AFA4FE3A83A">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CALLE" id="65357594-5345-5002-33ED-1CDB33C3444C">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="690AE1F6-66DF-A4A9-1B8D-4C3B8BE75970">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_POSTAL" id="8D247AF9-0E8C-74FD-EAA4-AC194E26446A">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERSONA_ID" id="E99388D3-656D-E7D5-3204-AAEEBAAF0FFA">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROVINCIA" id="F58DA578-E539-4476-09BE-5CEA58AE05C4">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK57L6EY4BLQTWGPINXAAPFHGOS" id="CB6877C4-1228-4C1A-50D8-784B943D99CF">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DIRECCION_PK" id="D5959B2A-2AC9-DD39-B61D-234481579207">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>87488AD1-CCF3-72AE-9160-48A757255673</schemaObject>
+<segment>98B94FB6-C043-A156-0E13-C1F34CFF5C3E</segment>
+<tableSpace>53A9EF4D-46AF-8AE6-0560-3D01FD717217</tableSpace>
+<indexSegment>98B94FB6-C043-A156-0E13-C1F34CFF5C3E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

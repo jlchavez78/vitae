@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0CA5B54-F5EA-52F7-139F-D358C2541FF9" name="DETALLE_EXPERIENCIA">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>JLCHAVEZ</sourceObjSchema>
+<sourceObjName>DETALLE_EXPERIENCIA</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>87488AD1-CCF3-72AE-9160-48A757255673</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0406B24E-AB8F-BAF6-2106-E7AA557215CB">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>DETALLE_EXPERIENCIA</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DETALLE" id="74BA1CB8-40F2-42FD-9DF5-23D5AF3B0AC7">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>DETALLE_EXPERIENCIA</sourceObjSchema>
+<sourceObjName>DETALLE</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPERIENCIA_ID" id="1D3A6E66-98AC-1FA2-E1D3-7627CB07E6C9">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>DETALLE_EXPERIENCIA</sourceObjSchema>
+<sourceObjName>EXPERIENCIA_ID</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<delegate>928F5110-88B6-5844-9DD5-FBC5753A2049</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82D48DAC-1EF7-6736-5C2D-6820E40D34FD" referredColumn="928F5110-88B6-5844-9DD5-FBC5753A2049"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3A0C6ED-FFD2-CEED-7D4E-E7F757A9C241" name="DETALLE_EXPERIENCIA_PK">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>JLCHAVEZ</sourceObjSchema>
+<sourceObjName>SYS_C0011452</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>87488AD1-CCF3-72AE-9160-48A757255673</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0406B24E-AB8F-BAF6-2106-E7AA557215CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B609BCB-978B-E74B-A1B6-69A0A529E177" name="FKTGQ6K2PMQLNLAJ2FDR3AK3QB9">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D3A6E66-98AC-1FA2-E1D3-7627CB07E6C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

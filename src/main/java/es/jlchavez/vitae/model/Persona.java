@@ -38,7 +38,6 @@ public class Persona {
 
 	private String movil;
 
-	@NotNull
 	private Date fechaNacimiento;
 
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "persona")

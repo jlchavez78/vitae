@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="87488AD1-CCF3-72AE-9160-48A757255673" name="JLCHAVEZ" seqName="seg_0"/>
+   <object objectType="Table" objectID="A877618A-3FCC-A9BF-D6A5-E798CDD6260C" name="CONOCIMIENTO_TECNICO" seqName="seg_0"/>
+   <object objectType="Table" objectID="A0CA5B54-F5EA-52F7-139F-D358C2541FF9" name="DETALLE_EXPERIENCIA" seqName="seg_0"/>
+   <object objectType="Table" objectID="CEA4756B-7E09-814D-1721-7E85F109DB93" name="DIRECCION" seqName="seg_0"/>
+   <object objectType="Table" objectID="AAF94D5F-98B9-865E-F1C9-6BC9A25B74A0" name="EMPRESA" seqName="seg_0"/>
+   <object objectType="Table" objectID="51D472A9-1E65-B284-2281-986704713A32" name="EXPERIENCIA" seqName="seg_0"/>
+   <object objectType="Table" objectID="6616988F-61DA-A773-7B8B-7D71D262848A" name="FORMACION" seqName="seg_0"/>
+   <object objectType="Table" objectID="E00F68BD-3A99-71FF-830B-E9B46ABB1BE0" name="IDIOMA" seqName="seg_0"/>
+   <object objectType="Table" objectID="B703C90E-F120-C56C-3733-C783F3BD0B0D" name="PERSONA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A7A5DBFD-3247-9480-1B5E-629FEA725221" name="FK30E9AA2TV4X2KIRMADMMGGSME" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D255342E-DA39-D531-9E14-0445E9C9E568" name="FK374PGF1M1HOHT7PGFYCK0FABR" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="57FFEA06-27AF-0C2E-6D0B-405720558360" name="FK57L6EY4BLQTWGPINXAAPFHGOS" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D875A627-DD8D-2C8D-8BB3-BDA81317AC16" name="FK9JHSCRKXCBOFAPPI9PJD33TJ5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="54DD6329-7427-AD73-1BDA-EA32AD1556D7" name="FKDHQKAK9M3B0PKSY7G2YD97SCY" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="90508771-DE4A-314B-EFEA-F245E65EDDC1" name="FKKYETRFV8I7FV1X9IGNSLG1EQ0" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1198CCAB-0219-F2ED-AAAE-C16EB77075B5" name="FKP92BJI07HG8CP3BBUMOH7O17Y" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="82D48DAC-1EF7-6736-5C2D-6820E40D34FD" name="FKTGQ6K2PMQLNLAJ2FDR3AK3QB9" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

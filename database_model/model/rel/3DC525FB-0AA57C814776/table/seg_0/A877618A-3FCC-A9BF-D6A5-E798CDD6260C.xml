@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A877618A-3FCC-A9BF-D6A5-E798CDD6260C" name="CONOCIMIENTO_TECNICO">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>JLCHAVEZ</sourceObjSchema>
+<sourceObjName>CONOCIMIENTO_TECNICO</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>87488AD1-CCF3-72AE-9160-48A757255673</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5C06DD05-EACF-99C0-C9DD-00F3D4BA6B1C">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>CONOCIMIENTO_TECNICO</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DETALLE" id="CB05E444-80B9-FB01-E7F0-45700161B20A">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>CONOCIMIENTO_TECNICO</sourceObjSchema>
+<sourceObjName>DETALLE</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIVEL" id="B47EF59F-7A28-D0A6-A1BC-BE815CAFF023">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>CONOCIMIENTO_TECNICO</sourceObjSchema>
+<sourceObjName>NIVEL</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_ID" id="8FE54944-5568-7B03-4A16-485AEE2AA350">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>CONOCIMIENTO_TECNICO</sourceObjSchema>
+<sourceObjName>PERSONA_ID</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<delegate>C2E15840-2E18-0F8E-2A4A-C768BCC11C99</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54DD6329-7427-AD73-1BDA-EA32AD1556D7" referredColumn="C2E15840-2E18-0F8E-2A4A-C768BCC11C99"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B508B0FA-E5F2-24CE-8AB0-194F55B0333A" name="CONOCIMIENTO_TECNICO_PK">
+<sourceConnName>VITAE</sourceConnName>
+<sourceObjSchema>JLCHAVEZ</sourceObjSchema>
+<sourceObjName>SYS_C0011448</sourceObjName>
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>87488AD1-CCF3-72AE-9160-48A757255673</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C06DD05-EACF-99C0-C9DD-00F3D4BA6B1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28010EEA-1F11-A298-2384-6C5FF80F45D9" name="FKDHQKAK9M3B0PKSY7G2YD97SCY">
+<createdBy>jlchavez</createdBy>
+<createdTime>2017-03-01 16:00:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FE54944-5568-7B03-4A16-485AEE2AA350"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
