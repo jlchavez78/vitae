@@ -1,0 +1,21 @@
+application:
+  version: 0.0.1 SNAPSHOT
+
+spring:
+  profiles.active: default
+  datasource:
+    driverClassName: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@//127.0.0.1:1521/xe
+    username: jlchavez
+    password: jlchavez
+  jpa:
+    database: ORACLE
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+      
+server:
+    port: 9000
+    contextPath: /client
+
+
