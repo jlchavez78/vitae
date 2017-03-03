@@ -1,3 +1,18 @@
-<h1>
-  {{title}}
-</h1>
+<section class="todoapp">
+	<header class="header">
+		<h1>Persona</h1>
+	</header>
+	<section class="main">
+		<input class="new-persona" placeholder="Nombre"
+			autofocus="" [(ngModel)]="newPersona.nombre">
+		
+		<input class="new-persona" placeholder="Apellido 1"
+			autofocus="" [(ngModel)]="newPersona.primerApellido">
+		
+		<input class="new-persona" placeholder="Apellido 2"
+			autofocus="" [(ngModel)]="newPersona.segundoApellido">
+			
+		<button class="add" (click)="addPersona(persona)"></button>
+	
+	</section>
+</section>
