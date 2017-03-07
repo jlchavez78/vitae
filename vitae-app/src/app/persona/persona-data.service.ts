@@ -23,7 +23,6 @@ export class PersonaDataService {
       err => console.log('ERROR!!!'),
       () => console.log('Got response from API', this.result)
       );
-    //return this.http.post('http://localhost:9000/vitae/personas', body, headers).map((res: Response) => res.json());
   }
 
 }
