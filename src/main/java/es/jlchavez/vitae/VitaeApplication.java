@@ -10,3 +10,4 @@ public class VitaeApplication {
 		SpringApplication.run(VitaeApplication.class, args);
 	}
 }
+
